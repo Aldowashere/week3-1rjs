@@ -1,0 +1,18 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container{
+  height: 100vh;
+  width: 100%;
+  background: linear-gradient(90deg,#8c1eff,#f222ff,#ff2975,#ff901f,#ffd319);
+  background-size: 300% 300%;
+  animation: color 0s ease-in-out infinite;
+}
+
+@keyframes color{
+0%{background-position: 0 50%;}
+50%{background-position: 100% 50%;}
+100%{background-position: 0% 50%;}
+}
